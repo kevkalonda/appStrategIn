@@ -1,8 +1,8 @@
 import '../style/style.css';
 import logo from './stg.jpg';
-import { Routes, Route, Link } from "react-router-dom";
+import {  Link } from "react-router-dom";
 
-import React, { useState } from "react";
+import React from "react";
 
 const CompteExiste = () => {
 

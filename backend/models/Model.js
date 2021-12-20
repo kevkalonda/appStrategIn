@@ -1,6 +1,10 @@
 const mongoose = require('mongoose');
 const uniqueValidator = require('mongoose-unique-validator');
 
+/**
+ * créeation du schzma de donnée.
+ **/
+
 const modelSchema = mongoose.Schema({
     nom: { type: String, required: true },
     postnom: { type: String, required: true },

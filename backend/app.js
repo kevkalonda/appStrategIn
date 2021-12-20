@@ -5,6 +5,9 @@ const router = require('./routes/route');
 
 const app = express();
 
+/**
+ * connexion à la BDD 
+ * */
 
 mongoose.connect('mongodb+srv://admin:1234@cluster0.qotwk.mongodb.net/essai?retryWrites=true&w=majority',
     {
@@ -17,7 +20,9 @@ mongoose.connect('mongodb+srv://admin:1234@cluster0.qotwk.mongodb.net/essai?retr
 app.use(express.json());
 
 
-
+/**
+ * Gestion de l'acces de notre BDD
+ * */
 app.use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content, Accept, Content-Type, Authorization');
@@ -27,7 +32,7 @@ app.use((req, res, next) => {
 
 app.use(bodyParser.json());
 
+/** la route d'acces à notre BDD*/
 app.use('/api/authentification', router);
-//app.use( router);
 
 module.exports = app;

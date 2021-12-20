@@ -5,11 +5,11 @@ const router = express.Router();
 const Controlleur = require('../controllers/controller');
 const auth = require('../middleware/authentification');
 
-router.post('/inscription', Controlleur.createUser);
-router.post('/connexion', Controlleur.connexionUser);
+router.post('/register', Controlleur.createUser);
+router.post('/login', Controlleur.connexionUser);
 router.delete('/suppressionCompte', Controlleur.deleteCompte);
 router.post('/my_compt', Controlleur.getMyCompte);
-router.get('/allComptes', Controlleur.getAllCompte);
+router.get('/users', Controlleur.getAllCompte);
 router.put('/update',  Controlleur.udpateCompte);
 
 
