@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  border: none;
+  outline: none;
+}
+body {
+  background: #EBF5FC;
+  color: black;
+}
+.lmj-logo2{
+  margin-top: 10px;
+  width: 10%;
+  right: 10%;
+}
+.navProfil {
+    justify-content: center;
+    align-items: center;
+    vertical-align: top;
+}
+h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+h1 {
+  margin-top: 20px;
+  text-align: center;
+  font-family: sans-serif;
+}
