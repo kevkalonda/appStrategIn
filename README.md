@@ -15,6 +15,10 @@ Installer npm avec la commande: $ npm install npm
 Puis lancer le front du projet avec la commande : $ npm start
 Ouvrir un navigateur web au choix et accéder au : http://localhost:3000/
 
+Si vous rencontrer un problème lié au conflit, vous fermet le programme avec Ctrl+c, puis vous relancer la commande: $ npm stat
+Si le probleme persiste vous trouverez la solution : 
+https://stackoverflow.com/questions/70377211/error-when-deploying-react-app-and-it-keeps-sayings-plugin-react-was-confli
+
 ![image](https://user-images.githubusercontent.com/82518647/146827000-9da1b34b-6313-468b-98d9-47f6e02da2d2.png)
 
 # Installation et lancement du coté backend
