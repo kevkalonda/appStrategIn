@@ -29,7 +29,7 @@ Installer npm avec la commande: $ npm install npm
 
 Puis lancer le back du projet avec la commande : $npx nodemon
 
-Si cela ne marche pas vos faites :$ node server.js
+Si cela ne marche pas vous faites :$ node server.js
 
 ![image](https://user-images.githubusercontent.com/82518647/146836623-eeb72aac-6cd7-4e69-9b50-044b6690dbcc.png)
 
